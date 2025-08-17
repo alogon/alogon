@@ -1,32 +1,43 @@
-# Howdy! I'm Scott.
+# 👋 Howdy! I'm Scott.
 
-I'm an experimenter with a penchant for building things that interest me. This has taken the form of teaching myself to knit, playing guitar, baking sourdough, and creating applications to speed up my work processes. I am the master of the side story, but I can usually find my way back to the point!
+I'm a creative technologist blending code, art, and music to build things that are both functional and expressive. I thrive on solving complex problems with elegant solutions and I think it's pretty cool when tech meets storytelling.
 
-I was born in Texas long enough ago to know that it wasn't Red.
+## 🔧 What I Do
 
-## Projects
-### 1. **bedrock-evaluations**
-This project is designed to create a comprehensive evaluation system for AWS course content using Amazon Bedrock. It focuses on evaluating course materials across five key metrics: Completeness, Correctness, Content Organization, Technical Depth, and Clarity of Explanations. The system includes a web dashboard for visualizing evaluation results, CloudFormation templates for infrastructure deployment, and JSONL configuration files for defining evaluation criteria. The project appears to be set up to compare different LLM performance and track course quality over time with domain-specific categorization.
+- 🎨 Creative problem-solving with a technical twist
+- 🧠 AI workflows using Bedrock, Neptune, and custom pipelines
+- 🎵 Music + art projects that explore generative creativity
+- 🚀 Entrepreneurial experiments in niche markets & recurring revenue
 
-### 3. **course-analogies-generator**
-This is a conceptual project in its early stages, containing only an idea document. The project aims to create a system that takes generated course content and creates alternative explanations using analogies from different domains like cooking, music, or residential neighborhoods. This would help make technical AWS concepts more accessible by relating them to familiar, everyday experiences.
+## 🌍 Currently Exploring
 
-### 4. **course-placeholders**
-This project is focused on extracting and managing placeholder text from course translation files. It contains a Python script that parses XLIFF (XML Localization Interchange File Format) files to identify and list all placeholder text that needs to be replaced during the localization process. The project appears to be part of a larger course translation workflow, helping to identify content that requires specific handling during the translation process.
+- 🔄 Building generation pipelines with JSON-based course creation
+- 🇬🇧 Exploring knowledge graph solutions to enhance LLM capabilities
+- 🧪 Prototyping ideas that merge artistic intuition with machine learning
 
-### 5. **demo-steps-to-pptx**
-This appears to be a minimal project containing only a PowerPoint presentation file, likely serving as a template or example for converting demonstration steps into presentation format.
+## 📌 Featured Projects
 
-### 6. **gp-course-content-generator**
-This project represents an earlier iteration or status document for the AWS Course Content Generator workflow. Based on the project status document, it was designed to automatically generate course content for AWS services using Step Functions orchestration, including main content, riser files, demos, and DDR files. The project has evolved significantly and appears to have been superseded by the more comprehensive `gp-course-gen-workflow` project.
+| Project | Description | Tech Stack |
+|--------|-------------|------------|
+| [ 🚠 Riser](https://github.com/alogon/riser) | My first production script! It was basically "Legos". I knew what I needed it to do, so I searched for each piece online. "Open file 1 (JSON), open file 2 (XLIFF), replace string in file 2 with string from file 1, repeat 147 times". It's actually a much cooler win than it sounds. Replaced a ⏰ 12-to-18 hour manual process with an hour of doc prep. Tip o' the hat to esteemed RK for the seed that opened the door to this gamechanger! | Python, Articulate Rise |
+| [ 🏭 AI Course Generator](https://github.com/alogon/ai-course-generator) | Scalable 🏭 pipeline to generate course content for digital training courses. Reduced intial course production time from 10 days to (literally) ⏰ 3-to-5 minutes.  | Bedrock, Claude, Lambda, Step Functions, S3, Amplify, React, Python |
+| [ 📈 What's New](https://github.com/yourusername/insightviz) | Web dashboard for tracking service updates and provide insight as to when a service has changed "enough" to warrant a major update to the relevant courses. | Lambda, Amplify, React, Python, RSS |
+| [ 🧐 TDKG](https://github.com/alogon/tdkg) | Ingest up-to-date documentation into knowledge graph system to ensure course content reflects current state of course topic.  | Neptune, S3, Amplify, React, Python |
+| [ ⚖️ Generated Content Evaluation](https://github.com/alogon/course-evaluation) | Comprehensive evaluation system for generated course content using Amazon Bedrock across five key metrics: Completeness, Correctness, Content Organization, Technical Depth, and Clarity of Explanations. Web dashboard for visualizing evaluation results and JSONL configuration files for defining ⚖️ evaluation criteria. Compares performance of 🧐 LLM used for generation against a second LLM. Tracks course quality over time with domain-specific categorization. | Bedrock, Claude, Nova, Llama, Amplify, React, Python |
+| [ 🆎 Course Analogies Generator](https://github.com/alogon/analogies) | A system to generate alternative explanations using analogies for 👩🏽‍🔬 technical concepts from different domains like 👩🏽‍🍳 cooking, 🎵 music, or 🏘️ residential neighborhoods. Makes concepts more accessible by relating them to familiar, everyday experiences. | Bedrock, S3, Python |
+| [ 🤔 Improve Course Narrative](https://github.com/alogon/narrative) | Analyze the narrative coherence of 🚞 training courses using 🗣️natural language processing and 🤖 machine learning. Performs deep narrative analysis, evaluates course structure against successful patterns, and generates actionable improvement recommendations. System provides comprehensive analysis capabilities including coherence scoring, story arc analysis, and thematic consistency evaluation | Bedrock, CDK, API Gateway, Lambda, S3, Python |
 
-This project explores using AWS Bedrock to enhance the course content generation workflow. It's a more focused implementation that leverages foundation models, knowledge bases, and orchestrated workflows to create high-quality AWS service training content. The project includes comprehensive documentation, Python scripts for different generation tasks, prompt templates, and support for knowledge base integration. It appears to be a more advanced, Bedrock-focused approach to course generation compared to the main workflow project.
+## ✨ Fun Bits
 
-### 8. **improve-gs-course**
-This is a sophisticated serverless system called "Course Narrative Analyzer" that analyzes the narrative coherence of AWS training courses using natural language processing and machine learning. The system uses AWS Bedrock for deep narrative analysis, evaluates course structure against successful patterns, and generates actionable improvement recommendations. It includes a complete CDK-based infrastructure, API Gateway endpoints, and comprehensive analysis capabilities including coherence scoring, story arc analysis, and thematic consistency evaluation.
+- 🎶 Currently holding sonic residence in: *Sketches for My Sweetheart the Drunk – Jeff Buckley*
+- 🖌️ Favorite medium: chordal constructions with amorphous key centers
+- 🧩 Favorite problem to solve: identifying the crux of the matter
 
-### 9. **migrate-resources-new-region**
-This is a utility project containing a single Python script designed to migrate AWS Bedrock Prompt Management assets between regions. It's a focused tool for handling the migration of prompt-related resources when moving AWS infrastructure to different regions.
+## 📫 Let's Connect
 
-### 10. **s3-sync**
-This is a simple utility project for synchronizing files with Amazon S3, containing a Python script and environment configuration for S3 operations.
+- 🌐 [Website] ...soon.
+- 💼 [LinkedIn](https://linkedin.com/in/scottwstewart)
+
+---
+
+> “Passion puts you in a timeless dimension of 'Now'.” – Steve Vai
